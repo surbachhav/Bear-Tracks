@@ -1,0 +1,704 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C854C0E12D03B35D00BC8A02 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = C854C0E02D03B35D00BC8A02 /* GoogleSignIn */; };
+		C854C0E32D03B35D00BC8A02 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = C854C0E22D03B35D00BC8A02 /* GoogleSignInSwift */; };
+		C8B9EAB82D03EE90005666F1 /* GoogleAPIClientForRESTCore in Frameworks */ = {isa = PBXBuildFile; productRef = C8B9EAB72D03EE90005666F1 /* GoogleAPIClientForRESTCore */; };
+		C8B9EABA2D03EE90005666F1 /* GoogleAPIClientForREST_ACMEDNS in Frameworks */ = {isa = PBXBuildFile; productRef = C8B9EAB92D03EE90005666F1 /* GoogleAPIClientForREST_ACMEDNS */; };
+		C8B9EABC2D03EE90005666F1 /* GoogleAPIClientForREST_AIPlatformNotebooks in Frameworks */ = {isa = PBXBuildFile; productRef = C8B9EABB2D03EE90005666F1 /* GoogleAPIClientForREST_AIPlatformNotebooks */; };
+		C8B9EABE2D03EE90005666F1 /* GoogleAPIClientForREST_APIGateway in Frameworks */ = {isa = PBXBuildFile; productRef = C8B9EABD2D03EE90005666F1 /* GoogleAPIClientForREST_APIGateway */; };
+		C8B9EAC02D03EE90005666F1 /* GoogleAPIClientForREST_APIManagement in Frameworks */ = {isa = PBXBuildFile; productRef = C8B9EABF2D03EE90005666F1 /* GoogleAPIClientForREST_APIManagement */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C854C0BE2D03A1BF00BC8A02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C854C0A42D03A1BC00BC8A02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C854C0AB2D03A1BD00BC8A02;
+			remoteInfo = "Bear-Tracks";
+		};
+		C854C0C82D03A1BF00BC8A02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C854C0A42D03A1BC00BC8A02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C854C0AB2D03A1BD00BC8A02;
+			remoteInfo = "Bear-Tracks";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C854C0AC2D03A1BD00BC8A02 /* Bear-Tracks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bear-Tracks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C854C0BD2D03A1BF00BC8A02 /* Bear-TracksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bear-TracksTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C854C0C72D03A1BF00BC8A02 /* Bear-TracksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bear-TracksUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		C854C0E82D03BA4100BC8A02 /* Exceptions for "Bear-Tracks" folder in "Bear-Tracks" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = C854C0AB2D03A1BD00BC8A02 /* Bear-Tracks */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		C854C0AE2D03A1BD00BC8A02 /* Bear-Tracks */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				C854C0E82D03BA4100BC8A02 /* Exceptions for "Bear-Tracks" folder in "Bear-Tracks" target */,
+			);
+			path = "Bear-Tracks";
+			sourceTree = "<group>";
+		};
+		C854C0C02D03A1BF00BC8A02 /* Bear-TracksTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Bear-TracksTests";
+			sourceTree = "<group>";
+		};
+		C854C0CA2D03A1BF00BC8A02 /* Bear-TracksUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Bear-TracksUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C854C0A92D03A1BD00BC8A02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C854C0E12D03B35D00BC8A02 /* GoogleSignIn in Frameworks */,
+				C8B9EAC02D03EE90005666F1 /* GoogleAPIClientForREST_APIManagement in Frameworks */,
+				C8B9EABE2D03EE90005666F1 /* GoogleAPIClientForREST_APIGateway in Frameworks */,
+				C8B9EAB82D03EE90005666F1 /* GoogleAPIClientForRESTCore in Frameworks */,
+				C8B9EABC2D03EE90005666F1 /* GoogleAPIClientForREST_AIPlatformNotebooks in Frameworks */,
+				C854C0E32D03B35D00BC8A02 /* GoogleSignInSwift in Frameworks */,
+				C8B9EABA2D03EE90005666F1 /* GoogleAPIClientForREST_ACMEDNS in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C854C0BA2D03A1BF00BC8A02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C854C0C42D03A1BF00BC8A02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C854C0A32D03A1BC00BC8A02 = {
+			isa = PBXGroup;
+			children = (
+				C854C0AE2D03A1BD00BC8A02 /* Bear-Tracks */,
+				C854C0C02D03A1BF00BC8A02 /* Bear-TracksTests */,
+				C854C0CA2D03A1BF00BC8A02 /* Bear-TracksUITests */,
+				C8B9EAC12D03F096005666F1 /* Frameworks */,
+				C854C0AD2D03A1BD00BC8A02 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C854C0AD2D03A1BD00BC8A02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C854C0AC2D03A1BD00BC8A02 /* Bear-Tracks.app */,
+				C854C0BD2D03A1BF00BC8A02 /* Bear-TracksTests.xctest */,
+				C854C0C72D03A1BF00BC8A02 /* Bear-TracksUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8B9EAC12D03F096005666F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C854C0AB2D03A1BD00BC8A02 /* Bear-Tracks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C854C0D12D03A1BF00BC8A02 /* Build configuration list for PBXNativeTarget "Bear-Tracks" */;
+			buildPhases = (
+				C854C0A82D03A1BD00BC8A02 /* Sources */,
+				C854C0A92D03A1BD00BC8A02 /* Frameworks */,
+				C854C0AA2D03A1BD00BC8A02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				C854C0AE2D03A1BD00BC8A02 /* Bear-Tracks */,
+			);
+			name = "Bear-Tracks";
+			packageProductDependencies = (
+				C854C0E02D03B35D00BC8A02 /* GoogleSignIn */,
+				C854C0E22D03B35D00BC8A02 /* GoogleSignInSwift */,
+				C8B9EAB72D03EE90005666F1 /* GoogleAPIClientForRESTCore */,
+				C8B9EAB92D03EE90005666F1 /* GoogleAPIClientForREST_ACMEDNS */,
+				C8B9EABB2D03EE90005666F1 /* GoogleAPIClientForREST_AIPlatformNotebooks */,
+				C8B9EABD2D03EE90005666F1 /* GoogleAPIClientForREST_APIGateway */,
+				C8B9EABF2D03EE90005666F1 /* GoogleAPIClientForREST_APIManagement */,
+			);
+			productName = "Bear-Tracks";
+			productReference = C854C0AC2D03A1BD00BC8A02 /* Bear-Tracks.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C854C0BC2D03A1BF00BC8A02 /* Bear-TracksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C854C0D42D03A1BF00BC8A02 /* Build configuration list for PBXNativeTarget "Bear-TracksTests" */;
+			buildPhases = (
+				C854C0B92D03A1BF00BC8A02 /* Sources */,
+				C854C0BA2D03A1BF00BC8A02 /* Frameworks */,
+				C854C0BB2D03A1BF00BC8A02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C854C0BF2D03A1BF00BC8A02 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C854C0C02D03A1BF00BC8A02 /* Bear-TracksTests */,
+			);
+			name = "Bear-TracksTests";
+			packageProductDependencies = (
+			);
+			productName = "Bear-TracksTests";
+			productReference = C854C0BD2D03A1BF00BC8A02 /* Bear-TracksTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C854C0C62D03A1BF00BC8A02 /* Bear-TracksUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C854C0D72D03A1BF00BC8A02 /* Build configuration list for PBXNativeTarget "Bear-TracksUITests" */;
+			buildPhases = (
+				C854C0C32D03A1BF00BC8A02 /* Sources */,
+				C854C0C42D03A1BF00BC8A02 /* Frameworks */,
+				C854C0C52D03A1BF00BC8A02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C854C0C92D03A1BF00BC8A02 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C854C0CA2D03A1BF00BC8A02 /* Bear-TracksUITests */,
+			);
+			name = "Bear-TracksUITests";
+			packageProductDependencies = (
+			);
+			productName = "Bear-TracksUITests";
+			productReference = C854C0C72D03A1BF00BC8A02 /* Bear-TracksUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C854C0A42D03A1BC00BC8A02 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					C854C0AB2D03A1BD00BC8A02 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					C854C0BC2D03A1BF00BC8A02 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = C854C0AB2D03A1BD00BC8A02;
+					};
+					C854C0C62D03A1BF00BC8A02 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = C854C0AB2D03A1BD00BC8A02;
+					};
+				};
+			};
+			buildConfigurationList = C854C0A72D03A1BC00BC8A02 /* Build configuration list for PBXProject "Bear-Tracks" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C854C0A32D03A1BC00BC8A02;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				C854C0DF2D03B35D00BC8A02 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				C8B9EAB62D03EE90005666F1 /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C854C0AD2D03A1BD00BC8A02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C854C0AB2D03A1BD00BC8A02 /* Bear-Tracks */,
+				C854C0BC2D03A1BF00BC8A02 /* Bear-TracksTests */,
+				C854C0C62D03A1BF00BC8A02 /* Bear-TracksUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C854C0AA2D03A1BD00BC8A02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C854C0BB2D03A1BF00BC8A02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C854C0C52D03A1BF00BC8A02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C854C0A82D03A1BD00BC8A02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C854C0B92D03A1BF00BC8A02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C854C0C32D03A1BF00BC8A02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C854C0BF2D03A1BF00BC8A02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C854C0AB2D03A1BD00BC8A02 /* Bear-Tracks */;
+			targetProxy = C854C0BE2D03A1BF00BC8A02 /* PBXContainerItemProxy */;
+		};
+		C854C0C92D03A1BF00BC8A02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C854C0AB2D03A1BD00BC8A02 /* Bear-Tracks */;
+			targetProxy = C854C0C82D03A1BF00BC8A02 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C854C0CF2D03A1BF00BC8A02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C854C0D02D03A1BF00BC8A02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		C854C0D22D03A1BF00BC8A02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Bear-Tracks/Bear_Tracks.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Bear-Tracks/Preview Content\"";
+				DEVELOPMENT_TEAM = 3YBL7YG678;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(PROJECT_DIR)/Bear-Tracks/Info.plist";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mycompany.Bear-Tracks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		C854C0D32D03A1BF00BC8A02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Bear-Tracks/Bear_Tracks.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Bear-Tracks/Preview Content\"";
+				DEVELOPMENT_TEAM = 3YBL7YG678;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(PROJECT_DIR)/Bear-Tracks/Info.plist";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mycompany.Bear-Tracks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		C854C0D52D03A1BF00BC8A02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3YBL7YG678;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mycompany.Bear-TracksTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bear-Tracks.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Bear-Tracks";
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		C854C0D62D03A1BF00BC8A02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3YBL7YG678;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mycompany.Bear-TracksTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bear-Tracks.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Bear-Tracks";
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		C854C0D82D03A1BF00BC8A02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3YBL7YG678;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mycompany.Bear-TracksUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = "Bear-Tracks";
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		C854C0D92D03A1BF00BC8A02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3YBL7YG678;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mycompany.Bear-TracksUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = "Bear-Tracks";
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C854C0A72D03A1BC00BC8A02 /* Build configuration list for PBXProject "Bear-Tracks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C854C0CF2D03A1BF00BC8A02 /* Debug */,
+				C854C0D02D03A1BF00BC8A02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C854C0D12D03A1BF00BC8A02 /* Build configuration list for PBXNativeTarget "Bear-Tracks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C854C0D22D03A1BF00BC8A02 /* Debug */,
+				C854C0D32D03A1BF00BC8A02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C854C0D42D03A1BF00BC8A02 /* Build configuration list for PBXNativeTarget "Bear-TracksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C854C0D52D03A1BF00BC8A02 /* Debug */,
+				C854C0D62D03A1BF00BC8A02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C854C0D72D03A1BF00BC8A02 /* Build configuration list for PBXNativeTarget "Bear-TracksUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C854C0D82D03A1BF00BC8A02 /* Debug */,
+				C854C0D92D03A1BF00BC8A02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C854C0DF2D03B35D00BC8A02 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+		C8B9EAB62D03EE90005666F1 /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/google-api-objectivec-client-for-rest.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C854C0E02D03B35D00BC8A02 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C854C0DF2D03B35D00BC8A02 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		C854C0E22D03B35D00BC8A02 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C854C0DF2D03B35D00BC8A02 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+		C8B9EAB72D03EE90005666F1 /* GoogleAPIClientForRESTCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C8B9EAB62D03EE90005666F1 /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
+			productName = GoogleAPIClientForRESTCore;
+		};
+		C8B9EAB92D03EE90005666F1 /* GoogleAPIClientForREST_ACMEDNS */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C8B9EAB62D03EE90005666F1 /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
+			productName = GoogleAPIClientForREST_ACMEDNS;
+		};
+		C8B9EABB2D03EE90005666F1 /* GoogleAPIClientForREST_AIPlatformNotebooks */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C8B9EAB62D03EE90005666F1 /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
+			productName = GoogleAPIClientForREST_AIPlatformNotebooks;
+		};
+		C8B9EABD2D03EE90005666F1 /* GoogleAPIClientForREST_APIGateway */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C8B9EAB62D03EE90005666F1 /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
+			productName = GoogleAPIClientForREST_APIGateway;
+		};
+		C8B9EABF2D03EE90005666F1 /* GoogleAPIClientForREST_APIManagement */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C8B9EAB62D03EE90005666F1 /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
+			productName = GoogleAPIClientForREST_APIManagement;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C854C0A42D03A1BC00BC8A02 /* Project object */;
+}
